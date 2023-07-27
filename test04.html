@@ -10,14 +10,22 @@
             width: 750px;
             border-collapse: collapse;
         }
+
         tr td, th{
             border:1px solid silver;
         }
+
         tr th{
             background-color: pink;
         }
+
         col.t{
             background-color: yellow;
+        }
+
+        table.t2{
+            width:750px;
+            height: 400px;
         }
 
     </style>
@@ -51,6 +59,18 @@
                     <td>김하나</td>
                     <td>20</td>
                 </tr>
+        </tbody>
+    </table>
+    
+    <table class="t2">
+        <tbody>
+            <tr><td colspan="2"></td><td></td></tr>
+            <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="3"></td>
+            </tr>
+            <tr></tr>
         </tbody>
     </table>
     
