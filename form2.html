@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="get" action="results">
+        <ul>
+            <li>
+                <label for="id">아이디</label>
+                <input type="text" name="id" id="id" required
+                placeholder="아이디를 입력하세요" maxlength="10" autofocus
+                readonly value="abcd"><br>
+            </li>
+            <li>
+                <label for="pwd">패스워드</label>
+                <input type="password" id="pwd" name="pwd"
+                required maxlength="5" minlength="3">
+            </li>
+            <li>
+                <label for="name">이름</label>
+                <input type="text" name="name" id="name">
+            </li>
+            <li>
+                <input type="hidden" name="data" value="test">
+            </li>
+            <li>
+                <label>성별</label>
+                <label for="m">남자</label>
+                <input type="radio" id="m" value="남자" name="gender" checked>
+                <label for="w">여자</label>
+                <input type="radio" id="w" value="여자" name="gender">
+            </li>
+            <li>
+                <fieldset>
+                    <legend>분식</legend>
+                    <label for="f1">떡볶이</label>
+                    <input type="checkbox" value="떡볶이" id="f1" name="favorite_food" checked>
+                    <label for="f2">김말이</label>
+                    <input type="checkbox" value="김말이" id="f2" name="favorite_food">
+                    <label for="f3">어묵</label>
+                    <input type="checkbox" value="어묵" id="f3" name="favorite_food">
+                </fieldset>
+            </li>
+            <li>
+                <label>분식</label>
+                <label for="f1">떡볶이</label>
+                <input type="checkbox" value="떡볶이" id="f1" name="favorite_food" checked>
+                <label for="f2">김말이</label>
+                <input type="checkbox" value="김말이" id="f2" name="favorite_food">
+                <label for="f3">어묵</label>
+                <input type="checkbox" value="어묵" id="f3" name="favorite_food">
+            </li>
+            <li>
+                <label for="file1">업로드 파일</label>
+                <input type="file" name="file1" id="file1">
+            </li>
+            <li>
+                <label for="myemail">이메일</label>
+                <input type="email" name="myemail" id="myemail" required>
+            </li>
+            <li>
+                <label for="myphone">전화번호</label>
+                <input type="tel" name="myphone" id="myphone" required>
+            </li>
+            <li>
+                <label for="mypage">사이트</label>
+                <input type="url" name="mypage" id="mypage" required>
+            </li>
+            <li>
+                <label>수량</label>
+                <input type="number" name="stock_number"
+                id="stock_number" min="30" max="100" step="10" value="50">
+            </li> 
+            <li>
+                <label>범위</label>
+                <input type="range" name="number_range" id="number_range"
+                min="10"  max="20" value=14 step="2">
+
+            </li>     
+            <li>
+                <input type="date" min="2023-07-01" max="2023-07-31">
+            </li>
+            <li>
+                <label for="dept">부서</label>
+                <select id="dept" name="dept" size="5" multiple>
+                    <option value="a">part-a</option>
+                    <option value="b">part-b</option>
+                    <option value="c">part-c</option>
+                    <optgroup label="세부목록">
+                        <option value="sub-1">sub-1</option>
+                        <option value="sub-2">sub-2</option>
+                        <option value="sub-3">sub-3</option>
+                    </optgroup>
+                </select>
+            </li> 
+            <li>
+                <label for="talk">하고싶은 말</label>
+                <textarea name="talk" id="talk" cols="20" rows="4">
+                    안녕!
+                </textarea>
+            </li>     
+            <li>
+                <!-- <input type="submit" value="전송" id="send"> -->
+                <button type="submit" id="send">전송</button>
+                <!-- <input type="reset" value="취소"> -->
+                <button type="reset" id="reset">취소</button>
+                <button type="button" id="btn">버튼</button>
+            </li>
+        </ul>
+
+    </form>
+    
+</body>
+</html>
