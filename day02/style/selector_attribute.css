@@ -1,0 +1,38 @@
+div{
+    width:100px;
+    height:100px;
+    background-color: yellow;
+    border:2px solid blue;
+    float:left;
+    margin-right:10px;
+}
+
+div[title~="h1"]{
+    color:brown;
+    font-size:15px;
+
+}
+
+div.clear{
+    clear:both;
+
+}
+
+a{
+    display:inline-block;
+    width:100px;
+}
+a[href$="com"]{
+    color:red;
+}
+a[href^="http"]{
+    border:3px solid green;
+}
+a[href*="shinhansec"]{
+   background-color: darkblue;
+   color:white;
+   font-size:20px;
+    
+}
+
+
