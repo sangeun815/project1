@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div:first-child{
+            border:2px solid silver;
+        } */
+
+        /* div:first-of-type{
+            background-color: green;
+        } */
+
+        /* div:nth-child(3n+1){
+            background-color: yellow;
+        } */
+
+        p:nth-of-type(2n){
+            background-color: darkorchid;
+        }
+
+        .test{
+            text-transform: capitalize;
+            text-decoration: underline;
+            line-height: 100px;
+        }
+        .shadow{
+            color:red;
+            font-size:20px;
+            text-shadow:
+                5px 5px 5px darkblue,
+                10px 10px 10px black,
+                20px 20px 20px yellow;
+        }
+        #tb{
+            width: 800px;
+            height: 400px;
+        }
+        #tb td{
+            border: 2px solid silver;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+    </style>
+</head>
+<body>
+    <div> div-1 </div>
+    <p> p-1 </p>
+    <div> div-2 </div>
+    <p> p-2 </p>
+    <div> div-3 </div>
+    <p> p-3 </p>
+    <div> div-4 </div>
+    <p> p-4 </p>
+
+    <div class="test">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Quasi veritatis, rem sint quo, quae quam reprehenderit repellat cumque temporibus dolorem explicabo iure repellendus et. 
+        Perspiciatis facere tempora id eveniet repudiandae!
+    </div>
+
+    <div class="shadow">안녕하세요</div>
+
+    <table id="tb">
+        <tbody>
+            <tr><td>hello my name is sangeun!</td></tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

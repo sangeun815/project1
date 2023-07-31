@@ -1,0 +1,67 @@
+#wrap{
+    border:1px solid silver;
+    width:80%;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px;
+    border:1px solid rgb(102,102,102);
+    background-color: rgb(204,255,255);
+}
+
+nav{
+    background-color: pink;
+}
+
+div.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav ul li{
+    list-style:none;
+    display:inline;
+}
+nav ul li a{
+    display:inline-block;
+    padding:20px 40px;
+    text-decoration: none;
+    color:black;
+}
+
+.main aside{
+    background-color: skyblue;
+}
+
+.main aside li{
+    list-style:none;
+}
+.main aside li a{
+    display:inline-block;
+    padding: 10px 30px;
+}
+
+aside{
+    width:25%;
+}
+
+article{
+    width:70%;
+    background-color: lightyellow;
+}
+
+footer{
+    background-color: rgb(190, 243, 225);
+
+}
+footer p{
+    padding:30px 10px;
+}
+
+
+
+
+
+
