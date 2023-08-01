@@ -1,0 +1,21 @@
+/*@media screen{
+
+    body{
+        background-color: silver;
+    }
+    div{
+        border:3px solid purple;
+    }
+
+}
+
+@media print{
+    div{
+        color:purple;
+    }
+
+}*/
+
+/*같은 경로이기 때문에 그냥 css 파일만 작성함*/
+@import url("print.css") print;
+@import url("screen.css") screen;
