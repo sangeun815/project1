@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(243, 242, 242);
+}
+div{
+    border:2px solid lightpink;
+    background-color: lightpink;
+    color:white;
+    font-weight: bolder;
+    padding:10px 20px;
+}

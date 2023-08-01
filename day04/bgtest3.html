@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.linear{
+            width:400px;
+            height:400px;
+            border:1px solid silver;
+            /* background:linear-gradient(to top, darkblue, white); */
+            background:linear-gradient(to top, darkblue, white 80% ,darkblue)
+        }
+
+        div {
+            width:100px;
+            height:100px;
+            border:1px solid silver;
+            background-color: green;
+            float: left; /*배치*/
+            background:radial-gradient(circle, white, darkblue);
+        }
+        div.clear{
+            clear:both;
+        }
+
+        table{
+            /*width:400px;
+            height: 300px;*/
+            width:60%;
+            border-collapse: collapse;
+        }
+        th, td{
+            border:1px solid black;
+            text-align: center;
+        }
+        thead th{
+            background-color: lightyellow;
+            border-bottom:3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="linear">hello</div>
+
+    <div>div1</div>
+    <div>div2</div>
+    <div>div3</div>
+
+    <div class="clear">eee</div>
+
+    <table>
+        <thead>
+            <tr><th $scope="col">번호</th><th $scope="col">이름</th><th $scope="col">국어</th></tr>
+        </thead>
+
+        <tbody>
+            <tr><td>1</td><td>홍길동</td><td>80</td></tr>
+            <tr><td>2</td><td>김하나</td><td>90</td></tr>
+        </tbody>
+    </table>
+
+
+</body>
+</html>

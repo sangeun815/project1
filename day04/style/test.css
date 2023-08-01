@@ -1,0 +1,40 @@
+#wrap{
+    border:1px solid silver;
+    width:80%;
+    margin: 0 auto;
+}
+
+div header{
+    border:1px solid silver;
+    padding:40px 30px;
+    margin:30px;
+}
+
+.main{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main section{
+    width:60%;
+}
+
+.main aside, section{
+    border:1px solid silver;
+    padding:40px 30px;
+    margin: 20px 10px 10px 30px;
+}
+
+.main aside ul li a{
+    display:inline;
+}
+
+footer{
+    border:1px solid silver;
+    padding:40px 30px;
+    margin:30px;
+
+}
+
+
