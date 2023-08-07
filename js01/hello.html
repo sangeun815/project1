@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script>
+        let irum = '홍길동';
+        // alert(irum);
+        document.write('<p> irum: ' + irum+ "</p>");
+    </script> -->
+</head>
+<body>
+    <input tyep="text" name = "irum">
+    <button type="button" id ="btn">클릭</button>
+
+    <script>
+        document.getElementById('btn')
+        .onclick = function()
+        {
+            let name = document.getElementById('irum').value;
+            document.write('<p> irum: ' + irum+ "</p>");
+        }
+    </script>
+
+    
+</body>
+</html>
