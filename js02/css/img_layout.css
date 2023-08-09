@@ -1,0 +1,13 @@
+#view{
+    display:block;
+    width:60vw;
+    height: 60vh;
+    border:1px solid red;
+    margin-bottom: 3vh;;
+}
+
+img.layout{
+    width:20vw;
+    height:20vh;
+    display:inline-block;
+}
